@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "watermarkApp",
+    "slug": "snack-cd3e7890-3799-4baf-b4f6-d7796b591e5c",
+    "scheme": "watermarkDoIt",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mayank74.snackcd3e789037994bafb4f6d7796b591e5c"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mayank74.snackcd3e789037994bafb4f6d7796b591e5c"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19ecb52c-f980-4659-91c0-816ce4e4e8eb"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-router",
+      "react-native-image-marker",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      "react-native-vision-camera"
+    ]
+  }
+}
